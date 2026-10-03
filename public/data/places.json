@@ -1,0 +1,602 @@
+[
+  {
+    "id": "bhai-gurdas-library",
+    "name": "Bhai Gurdas Library",
+    "namePa": "ਭਾਈ ਗੁਰਦਾਸ ਲਾਇਬ੍ਰੇਰੀ",
+    "category": "library",
+    "lat": 31.6358,
+    "lon": 74.8256,
+    "hours": "Mo-Fr 09:00-21:00; Sa-Su 09:00-17:00",
+    "aliases": ["BGL", "Central Library", "Main Library"],
+    "description": "5-storey central library of Guru Nanak Dev University housing over 500,000 volumes."
+  },
+  {
+    "id": "lecture-theatre-complex",
+    "name": "Lecture Theatre Complex",
+    "namePa": "ਲੈਕਚਰ ਥੀਏਟਰ ਕੰਪਲੈਕਸ",
+    "category": "auditorium",
+    "lat": 31.6358,
+    "lon": 74.8266,
+    "aliases": ["LTC", "Lecture Halls", "Classes"],
+    "description": "Central multi-tiered lecture theatres complex for academic classes and seminars."
+  },
+  {
+    "id": "dashmesh-auditorium",
+    "name": "Dashmesh Auditorium",
+    "namePa": "ਦਸ਼ਮੇਸ਼ ਆਡੀਟੋਰੀਅਮ",
+    "category": "auditorium",
+    "lat": 31.6370,
+    "lon": 74.8251,
+    "aliases": ["Dashmesh Hall", "Main Auditorium"],
+    "description": "Premier air-conditioned university auditorium hosting convocations and national conferences."
+  },
+  {
+    "id": "guru-nanak-bhavan",
+    "name": "Guru Nanak Bhavan",
+    "namePa": "ਗੁਰੂ ਨਾਨਕ ਭਵਨ",
+    "category": "auditorium",
+    "lat": 31.6366,
+    "lon": 74.8270,
+    "aliases": ["Guru Nanak Auditorium", "GNB"],
+    "description": "Cultural auditorium and stage for youth festivals, plays, and university ceremonies."
+  },
+  {
+    "id": "guru-granth-sahib-bhawan",
+    "name": "Sri Guru Granth Sahib Bhawan",
+    "namePa": "ਸ਼੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਭਵਨ",
+    "category": "academic",
+    "lat": 31.6349,
+    "lon": 74.8282,
+    "aliases": ["SGGS Bhawan", "Centre on SGGS Studies"],
+    "description": "Centre for Studies on Sri Guru Granth Sahib and research departments."
+  },
+  {
+    "id": "dean-student-welfare",
+    "name": "Dean Student Welfare",
+    "namePa": "ਡੀਨ ਸਟੂਡੈਂਟ ਵੈਲਫੇਅਰ",
+    "category": "administration",
+    "lat": 31.6372,
+    "lon": 74.8260,
+    "aliases": ["DSW", "Student Center", "Student Activity Center"],
+    "description": "Hub for student activities, clubs, youth welfare, and student council."
+  },
+  {
+    "id": "admin-block",
+    "name": "Administrative Block",
+    "namePa": "ਪ੍ਰਬੰਧਕੀ ਬਲਾਕ",
+    "category": "administration",
+    "lat": 31.6378,
+    "lon": 74.8239,
+    "aliases": ["Registrar Office", "Admin", "Examination Wing"],
+    "description": "Main administrative headquarters of Guru Nanak Dev University."
+  },
+  {
+    "id": "vc-secretariat",
+    "name": "Vice Chancellor Secretariat",
+    "namePa": "ਵਾਈਸ ਚਾਂਸਲਰ ਦਫ਼ਤਰ",
+    "category": "administration",
+    "lat": 31.6374,
+    "lon": 74.8235,
+    "aliases": ["VC Office", "VC Secretariat", "Senate Hall"],
+    "description": "Executive offices of the Vice Chancellor and University Syndicate."
+  },
+  {
+    "id": "dept-computer-science",
+    "name": "Department of Computer Science & Engg",
+    "namePa": "ਕੰਪਿਊਟਰ ਸਾਇੰਸ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6345,
+    "lon": 74.8258,
+    "aliases": ["CSE Dept", "Computer Center", "IT Dept"],
+    "description": "Center for computing, AI research, robotics labs, and IT services."
+  },
+  {
+    "id": "dept-physics",
+    "name": "Department of Physics",
+    "namePa": "ਭੌਤਿਕ ਵਿਗਿਆਨ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6355,
+    "lon": 74.8242,
+    "aliases": ["Physics Dept", "Physics Labs"],
+    "description": "Advanced research laboratories for nuclear, optical, and material physics."
+  },
+  {
+    "id": "dept-chemistry",
+    "name": "Department of Chemistry",
+    "namePa": "ਰਸਾਇਣ ਵਿਗਿਆਨ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6353,
+    "lon": 74.8248,
+    "aliases": ["Chemistry Dept", "Chemical Labs"],
+    "description": "UGC Centre for Advanced Study in Chemistry with synthesis and analytical labs."
+  },
+  {
+    "id": "dept-mathematics",
+    "name": "Department of Mathematics",
+    "namePa": "ਗਣਿਤ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6359,
+    "lon": 74.8238,
+    "aliases": ["Maths Dept", "Mathematics"],
+    "description": "Pure and applied mathematics department and computational analytics centre."
+  },
+  {
+    "id": "dept-biotech",
+    "name": "Department of Biotechnology",
+    "namePa": "ਬਾਇਓਟੈਕਨਾਲੋਜੀ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6348,
+    "lon": 74.8250,
+    "aliases": ["Biotech Dept", "Genomics Lab"],
+    "description": "Cutting-edge molecular biology, tissue culture, and genetics laboratories."
+  },
+  {
+    "id": "dept-electronics",
+    "name": "Department of Electronics Technology",
+    "namePa": "ਇਲੈਕਟ੍ਰੋਨਿਕਸ ਟੈਕਨਾਲੋਜੀ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6342,
+    "lon": 74.8262,
+    "aliases": ["ECE Dept", "Electronics Dept"],
+    "description": "VLSI design, embedded systems, and communication engineering labs."
+  },
+  {
+    "id": "dept-pharma",
+    "name": "Department of Pharmaceutical Sciences",
+    "namePa": "ਫਾਰਮਾਸਿਊਟੀਕਲ ਸਾਇੰਸ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6340,
+    "lon": 74.8268,
+    "aliases": ["Pharmacy", "Drug Discovery Lab"],
+    "description": "Pharmaceutical formulation, pharmacology, and drug research labs."
+  },
+  {
+    "id": "dept-food-science",
+    "name": "Department of Food Science & Technology",
+    "namePa": "ਫੂਡ ਸਾਇੰਸ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6344,
+    "lon": 74.8272,
+    "aliases": ["Food Tech", "Food Processing Lab"],
+    "description": "Food quality testing, fermentation, and pilot processing plant."
+  },
+  {
+    "id": "dept-architecture",
+    "name": "Department of Architecture & Planning",
+    "namePa": "ਆਰਕੀਟੈਕਚਰ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6348,
+    "lon": 74.8232,
+    "aliases": ["Architecture Studios", "Urban Planning"],
+    "description": "Design studios, model making workshop, and GIS mapping center."
+  },
+  {
+    "id": "university-business-school",
+    "name": "University Business School (UBS)",
+    "namePa": "ਯੂਨੀਵਰਸਿਟੀ ਬਿਜ਼ਨਸ ਸਕੂਲ",
+    "category": "academic",
+    "lat": 31.6354,
+    "lon": 74.8228,
+    "aliases": ["UBS", "MBA Dept", "Management Studies"],
+    "description": "Premier management institute offering MBA and executive leadership programs."
+  },
+  {
+    "id": "dept-laws",
+    "name": "Department of Laws",
+    "namePa": "ਕਾਨੂੰਨ ਵਿਭਾਗ",
+    "category": "academic",
+    "lat": 31.6364,
+    "lon": 74.8220,
+    "aliases": ["Law Dept", "Moot Court"],
+    "description": "Legal studies wing with full-size Moot Court and legal aid clinic."
+  },
+  {
+    "id": "maharaja-ranjit-singh-bhawan",
+    "name": "Maharaja Ranjit Singh Bhawan",
+    "namePa": "ਮਹਾਰਾਜਾ ਰਣਜੀਤ ਸਿੰਘ ਭਵਨ",
+    "category": "academic",
+    "lat": 31.6362,
+    "lon": 74.8245,
+    "aliases": ["MRSB", "Social Sciences Block"],
+    "description": "Houses Faculty of Arts & Social Sciences, History, and Political Science."
+  },
+  {
+    "id": "gurdwara-sahib",
+    "name": "Gurdwara Sahib GNDU",
+    "namePa": "ਗੁਰਦੁਆਰਾ ਸਾਹਿਬ",
+    "category": "worship",
+    "lat": 31.6385,
+    "lon": 74.8265,
+    "aliases": ["Campus Gurdwara", "Gurudwara"],
+    "description": "Sacred and serene campus Gurdwara providing spiritual sanctuary and daily Langar."
+  },
+  {
+    "id": "boys-hostel-1",
+    "name": "Sahibzada Jujhar Singh Boys Hostel (H1)",
+    "namePa": "ਲੜਕਿਆਂ ਦਾ ਹੋਸਟਲ 1",
+    "category": "hostel",
+    "lat": 31.6360,
+    "lon": 74.8280,
+    "aliases": ["Hostel 1", "Hall 1", "Boys Hostel 1"],
+    "description": "Residential hall for undergraduate students with reading room and sports courts."
+  },
+  {
+    "id": "boys-hostel-2",
+    "name": "Sahibzada Zorawar Singh Boys Hostel (H2)",
+    "namePa": "ਲੜਕਿਆਂ ਦਾ ਹੋਸਟਲ 2",
+    "category": "hostel",
+    "lat": 31.6365,
+    "lon": 74.8286,
+    "aliases": ["Hostel 2", "Hall 2", "Boys Hostel 2"],
+    "description": "Residential block for postgraduate scholars with high-speed internet and gym."
+  },
+  {
+    "id": "boys-hostel-3",
+    "name": "Sahibzada Fateh Singh Boys Hostel (H3)",
+    "namePa": "ਲੜਕਿਆਂ ਦਾ ਹੋਸਟਲ 3",
+    "category": "hostel",
+    "lat": 31.6370,
+    "lon": 74.8292,
+    "aliases": ["Hostel 3", "Hall 3", "Boys Hostel 3"],
+    "description": "Modern boys accommodation with dining hall and recreation lounge."
+  },
+  {
+    "id": "girls-hostel-1",
+    "name": "Mata Nanaki Girls Hostel 1",
+    "namePa": "ਮਾਤਾ ਨਾਨਕੀ ਲੜਕੀਆਂ ਦਾ ਹੋਸਟਲ 1",
+    "category": "hostel",
+    "lat": 31.6385,
+    "lon": 74.8288,
+    "aliases": ["Girls Hostel 1", "GH1", "Hall 6"],
+    "description": "Spacious hostel for women scholars with 24x7 security and landscaped lawns."
+  },
+  {
+    "id": "girls-hostel-2",
+    "name": "Mata Nanaki Girls Hostel 2",
+    "namePa": "ਮਾਤਾ ਨਾਨਕੀ ਲੜਕੀਆਂ ਦਾ ਹੋਸਟਲ 2",
+    "category": "hostel",
+    "lat": 31.6380,
+    "lon": 74.8294,
+    "aliases": ["Girls Hostel 2", "GH2", "Hall 7"],
+    "description": "Multi-storey girls hostel equipped with gym, reading room, and cooperative store."
+  },
+  {
+    "id": "girls-hostel-3",
+    "name": "Mata Nanaki Girls Hostel 3",
+    "namePa": "ਮਾਤਾ ਨਾਨਕੀ ਲੜਕੀਆਂ ਦਾ ਹੋਸਟਲ 3",
+    "category": "hostel",
+    "lat": 31.6376,
+    "lon": 74.8299,
+    "aliases": ["Girls Hostel 3", "GH3", "Hall 8"],
+    "description": "Comfortable accommodation for research scholars and international students."
+  },
+  {
+    "id": "girls-hostel-4",
+    "name": "Mata Nanaki Girls Hostel 4",
+    "namePa": "ਮਾਤਾ ਨਾਨਕੀ ਲੜਕੀਆਂ ਦਾ ਹੋਸਟਲ 4",
+    "category": "hostel",
+    "lat": 31.6372,
+    "lon": 74.8304,
+    "aliases": ["Girls Hostel 4", "GH4", "Hall 9"],
+    "description": "Modern hostel block featuring elevator access and dedicated study spaces."
+  },
+  {
+    "id": "guest-house",
+    "name": "University Faculty Guest House",
+    "namePa": "ਯੂਨੀਵਰਸਿਟੀ ਗੈਸਟ ਹਾਊਸ",
+    "category": "hostel",
+    "lat": 31.6380,
+    "lon": 74.8278,
+    "aliases": ["Guest House", "VIP Suites", "Visiting Faculty"],
+    "description": "Comfortable suites for visiting professors, delegates, and keynote speakers."
+  },
+  {
+    "id": "main-canteen",
+    "name": "Main Student Canteen",
+    "namePa": "ਵਿਦਿਆਰਥੀ ਕੰਟੀਨ",
+    "category": "canteen",
+    "lat": 31.6366,
+    "lon": 74.8255,
+    "hours": "Mo-Sa 08:00-20:00",
+    "aliases": ["Central Canteen", "Food Court", "Campus Cafe"],
+    "description": "Vibrant food court serving hot meals, snacks, samosas, tea, and fresh juices."
+  },
+  {
+    "id": "nescafe-kiosk",
+    "name": "Nescafe Coffee Kiosk",
+    "namePa": "ਨੈਸਕਾਫੇ ਕਿਓਸਕ",
+    "category": "canteen",
+    "lat": 31.6362,
+    "lon": 74.8258,
+    "hours": "Mo-Su 08:30-22:00",
+    "aliases": ["Nescafe", "Coffee Point"],
+    "description": "Popular student hangout for hot cappuccino, iced tea, and quick bites."
+  },
+  {
+    "id": "dsw-cafeteria",
+    "name": "DSW Cafeteria & Lounge",
+    "namePa": "ਡੀ.ਐਸ.ਡਬਲਿਊ ਕੈਫੇ",
+    "category": "canteen",
+    "lat": 31.6370,
+    "lon": 74.8262,
+    "hours": "Mo-Fr 09:00-18:00",
+    "aliases": ["DSW Cafe", "Open Air Cafe"],
+    "description": "Open courtyard cafeteria adjoining the student activity center."
+  },
+  {
+    "id": "verka-booth",
+    "name": "Verka Dairy & Ice Cream Booth",
+    "namePa": "ਵੇਰਕਾ ਬੂਥ",
+    "category": "canteen",
+    "lat": 31.6368,
+    "lon": 74.8240,
+    "hours": "Daily 07:00-21:00",
+    "aliases": ["Verka", "Milk Bar", "Kulfi Point"],
+    "description": "Fresh milk, lassi, ice cream, kheer, and dairy treats."
+  },
+  {
+    "id": "sports-complex",
+    "name": "GNDU Sports Complex & Stadium",
+    "namePa": "ਖੇਡ ਕੰਪਲੈਕਸ",
+    "category": "sports",
+    "lat": 31.6328,
+    "lon": 74.8285,
+    "aliases": ["Stadium", "Athletics Track", "Sports Ground"],
+    "description": "National award-winning sports complex with 400m synthetic running track."
+  },
+  {
+    "id": "velodrome",
+    "name": "University Cycling Velodrome",
+    "namePa": "ਸਾਈਕਲਿੰਗ ਵੈਲੋਡ੍ਰੋਮ",
+    "category": "sports",
+    "lat": 31.6322,
+    "lon": 74.8295,
+    "aliases": ["Velodrome", "Cycling Track"],
+    "description": "International standard banked cycling track producing national champions."
+  },
+  {
+    "id": "swimming-pool",
+    "name": "All-Weather Swimming Pool Complex",
+    "namePa": "ਸਵਿਮਿੰਗ ਪੂਲ",
+    "category": "sports",
+    "lat": 31.6335,
+    "lon": 74.8290,
+    "aliases": ["Swimming Pool", "Diving Pool"],
+    "description": "Olympic-sized indoor swimming facility with temperature control."
+  },
+  {
+    "id": "gymnasium-hall",
+    "name": "Indoor Gymnasium & Badminton Arena",
+    "namePa": "ਜਿਮਨੇਜ਼ੀਅਮ ਹਾਲ",
+    "category": "sports",
+    "lat": 31.6338,
+    "lon": 74.8282,
+    "aliases": ["Gym Hall", "Badminton Court", "Table Tennis Arena"],
+    "description": "Wooden-floored indoor arena for badminton, gymnastics, and weightlifting."
+  },
+  {
+    "id": "hockey-stadium",
+    "name": "Astroturf Hockey Stadium",
+    "namePa": "ਹਾਕੀ ਸਟੇਡੀਅਮ",
+    "category": "sports",
+    "lat": 31.6320,
+    "lon": 74.8280,
+    "aliases": ["Hockey Ground", "Astroturf"],
+    "description": "World-class synthetic turf hockey ground with floodlights."
+  },
+  {
+    "id": "cricket-ground",
+    "name": "University Cricket Pavilion & Oval",
+    "namePa": "ਕ੍ਰਿਕਟ ਮੈਦਾਨ",
+    "category": "sports",
+    "lat": 31.6316,
+    "lon": 74.8275,
+    "aliases": ["Cricket Pitch", "Pavilion"],
+    "description": "Lush green cricket ground hosting inter-university tournaments."
+  },
+  {
+    "id": "tennis-courts",
+    "name": "Lawn Tennis Hard Courts",
+    "namePa": "ਟੈਨਿਸ ਕੋਰਟ",
+    "category": "sports",
+    "lat": 31.6330,
+    "lon": 74.8296,
+    "aliases": ["Tennis Court", "Hard Courts"],
+    "description": "Four floodlit synthetic tennis courts."
+  },
+  {
+    "id": "health-centre",
+    "name": "University Health Centre & Pharmacy",
+    "namePa": "ਸਿਹਤ ਕੇਂਦਰ",
+    "category": "health",
+    "lat": 31.6375,
+    "lon": 74.8222,
+    "hours": "24x7 Emergency Services",
+    "aliases": ["Dispensary", "Medical Center", "Clinic", "Hospital"],
+    "description": "Campus medical dispensary providing doctor consultations, emergency care, and ambulance."
+  },
+  {
+    "id": "sbi-branch",
+    "name": "State Bank of India (Branch & ATM)",
+    "namePa": "ਸਟੇਟ ਬੈਂਕ ਆਫ਼ ਇੰਡੀਆ",
+    "category": "banks",
+    "lat": 31.6382,
+    "lon": 74.8236,
+    "hours": "Mo-Fr 10:00-16:00; ATM 24/7",
+    "aliases": ["SBI Bank", "SBI ATM", "Bank"],
+    "description": "Full-service on-campus bank branch and 24-hour cash ATM."
+  },
+  {
+    "id": "pnb-atm",
+    "name": "Punjab National Bank ATM",
+    "namePa": "ਪੀ.ਐਨ.ਬੀ ਏਟੀਐਮ",
+    "category": "banks",
+    "lat": 31.6372,
+    "lon": 74.8242,
+    "hours": "24/7",
+    "aliases": ["PNB ATM", "Cash Point"],
+    "description": "24-hour ATM near Maharaja Ranjit Singh Bhawan."
+  },
+  {
+    "id": "shopping-complex",
+    "name": "University Shopping Complex",
+    "namePa": "ਸ਼ਾਪਿੰਗ ਕੰਪਲੈਕਸ",
+    "category": "shops",
+    "lat": 31.6380,
+    "lon": 74.8230,
+    "hours": "Mo-Sa 09:00-20:00",
+    "aliases": ["Market", "Cooperative Store", "Book Shop", "Stationery"],
+    "description": "Campus retail arcade with university cooperative store, bookstore, and drycleaners."
+  },
+  {
+    "id": "printing-press",
+    "name": "GNDU Publication Bureau & Printing Press",
+    "namePa": "ਪ੍ਰਿੰਟਿੰਗ ਪ੍ਰੈਸ",
+    "category": "printing",
+    "lat": 31.6370,
+    "lon": 74.8238,
+    "hours": "Mo-Fr 09:00-17:00",
+    "aliases": ["Printing Press", "Photostat", "Binding Center"],
+    "description": "University official printing press and thesis binding facility."
+  },
+  {
+    "id": "botanical-garden",
+    "name": "University Botanical Garden & Nursery",
+    "namePa": "ਬੋਟੈਨੀਕਲ ਗਾਰਡਨ",
+    "category": "parks",
+    "lat": 31.6330,
+    "lon": 74.8285,
+    "aliases": ["Botanical Garden", "Herbal Park", "Institute Nursery", "Greenhouse"],
+    "description": "15-acre botanical sanctuary with rare medicinal flora and conservatory."
+  },
+  {
+    "id": "rose-garden",
+    "name": "Campus Rose Garden & Lawns",
+    "namePa": "ਗੁਲਾਬ ਦਾ ਬਾਗ਼",
+    "category": "parks",
+    "lat": 31.6360,
+    "lon": 74.8240,
+    "aliases": ["Rose Garden", "Central Lawns", "Park"],
+    "description": "Landscaped rose garden and open green spaces in front of the science departments."
+  },
+  {
+    "id": "main-gate-1",
+    "name": "Main Gate 1 (Grand Trunk Road)",
+    "namePa": "ਮੁੱਖ ਗੇਟ 1 (ਜੀ.ਟੀ. ਰੋਡ)",
+    "category": "transport",
+    "lat": 31.6395,
+    "lon": 74.8245,
+    "aliases": ["Main Gate", "Gate 1", "GT Road Gate"],
+    "description": "Primary historic entrance gate to Guru Nanak Dev University on NH-1 (GT Road)."
+  },
+  {
+    "id": "gate-2",
+    "name": "Gate 2 (Chheharta Road)",
+    "namePa": "ਗੇਟ 2",
+    "category": "transport",
+    "lat": 31.6360,
+    "lon": 74.8160,
+    "aliases": ["West Gate", "Gate 2", "Hostel Gate"],
+    "description": "Western campus entrance connecting to residential quarters and Chheharta."
+  },
+  {
+    "id": "gate-3",
+    "name": "Gate 3 (Bypass Road)",
+    "namePa": "ਗੇਟ 3",
+    "category": "transport",
+    "lat": 31.6340,
+    "lon": 74.8315,
+    "aliases": ["East Gate", "Gate 3", "Bypass Gate"],
+    "description": "Eastern entrance gate adjacent to Guru Granth Sahib Bhawan and botanical gardens."
+  },
+  {
+    "id": "e-rickshaw-stand",
+    "name": "University E-Rickshaw Transit Hub",
+    "namePa": "ਈ-ਰਿਕਸ਼ਾ ਸਟੈਂਡ",
+    "category": "transport",
+    "lat": 31.6392,
+    "lon": 74.8242,
+    "aliases": ["E-Rickshaw", "Campus Transit", "Bus Stop"],
+    "description": "Eco-friendly zero-emission electric shuttle hub connecting all campus blocks."
+  },
+  {
+    "id": "cycle-parking-main",
+    "name": "Central Cycle & Scooter Parking",
+    "namePa": "ਸਾਈਕਲ ਸਟੈਂਡ",
+    "category": "cycle",
+    "lat": 31.6390,
+    "lon": 74.8248,
+    "aliases": ["Cycle Stand", "Parking", "Bike Stand"],
+    "description": "Covered two-wheeler parking facility."
+  },
+  {
+    "id": "hostel-mess-1",
+    "name": "Hostel 1 Student Dining Mess",
+    "namePa": "ਹੋਸਟਲ 1 ਮੈੱਸ",
+    "category": "messes",
+    "lat": 31.6362,
+    "lon": 74.8282,
+    "aliases": ["H1 Mess", "Dining Hall"],
+    "description": "Daily student dining mess serving breakfast, lunch, and dinner."
+  },
+  {
+    "id": "girls-hostel-mess",
+    "name": "Mata Nanaki Hostel Central Mess",
+    "namePa": "ਲੜਕੀਆਂ ਦਾ ਹੋਸਟਲ ਮੈੱਸ",
+    "category": "messes",
+    "lat": 31.6382,
+    "lon": 74.8292,
+    "aliases": ["GH Mess", "Girls Dining Hall"],
+    "description": "Clean, hygienic central dining mess for female resident scholars."
+  },
+  {
+    "id": "water-point-ltc",
+    "name": "LTC Chilled RO Water Station",
+    "namePa": "ਪੀਣ ਵਾਲੇ ਪਾਣੀ ਦਾ ਪੁਆਇੰਟ",
+    "category": "water",
+    "lat": 31.6356,
+    "lon": 74.8264,
+    "aliases": ["Water Cooler", "RO Point", "Drinking Water"],
+    "description": "Purified chilled drinking water station at Lecture Theatre Complex."
+  },
+  {
+    "id": "library-water-point",
+    "name": "Library RO Water Point",
+    "namePa": "ਲਾਇਬ੍ਰੇਰੀ ਵਾਟਰ ਕੂਲਰ",
+    "category": "water",
+    "lat": 31.6356,
+    "lon": 74.8255,
+    "aliases": ["Library Water Cooler"],
+    "description": "Water cooler on the ground floor of Bhai Gurdas Library."
+  },
+  {
+    "id": "ltc-washrooms",
+    "name": "LTC Public Restrooms",
+    "namePa": "ਜਨਤਕ ਪਖਾਨੇ",
+    "category": "toilets",
+    "lat": 31.6356,
+    "lon": 74.8268,
+    "aliases": ["Restrooms", "Toilets", "Washrooms"],
+    "description": "Clean accessible public washrooms at Lecture Theatre Complex."
+  },
+  {
+    "id": "laundry-hub",
+    "name": "Campus Student Laundry Hub",
+    "namePa": "ਲਾਂਡਰੀ ਹੱਬ",
+    "category": "laundry",
+    "lat": 31.6368,
+    "lon": 74.8288,
+    "aliases": ["Laundry", "Drycleaners", "Washing Hub"],
+    "description": "Automated washing machines and ironing services for campus residents."
+  },
+  {
+    "id": "boulevard-lights",
+    "name": "Main Boulevard Solar Street Lights",
+    "namePa": "ਸਟ੍ਰੀਟ ਲਾਈਟਾਂ",
+    "category": "lights",
+    "lat": 31.6375,
+    "lon": 74.8250,
+    "aliases": ["Street Lights", "Night Pathway"],
+    "description": "High-illumination solar LED street lights along the central academic avenue."
+  }
+]
